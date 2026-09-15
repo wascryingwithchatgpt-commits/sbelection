@@ -16,14 +16,55 @@ function cleanText(value = "") {
     .trim();
 }
 
+function emptyMayorRecord() {
+  return {
+    perks: [],
+    lastSeenYear: null,
+    updatedAt: null,
+    isCurrentMayor: false,
+    lastBecameMayorAt: null,
+    lastMayorEndedAt: null
+  };
+}
+
+function normalizeMayorRecord(record) {
+  if (Array.isArray(record)) {
+    return {
+      ...emptyMayorRecord(),
+      perks: record
+    };
+  }
+
+  return {
+    ...emptyMayorRecord(),
+    ...(record || {}),
+    perks: Array.isArray(record?.perks)
+      ? record.perks
+      : []
+  };
+}
+
 function readDatabase() {
   if (!fs.existsSync(DATA_PATH)) {
-    return {};
+    return {
+      _meta: {
+        currentMayor: null,
+        lastCheckedAt: null
+      }
+    };
   }
 
   return JSON.parse(
     fs.readFileSync(DATA_PATH, "utf8")
   );
+}
+
+function ensureMayor(database, name) {
+  database[name] = normalizeMayorRecord(
+    database[name]
+  );
+
+  return database[name];
 }
 
 async function updateElection() {
@@ -47,48 +88,120 @@ async function updateElection() {
     );
   }
 
-  const election = data.election || data.current || {};
-  const candidates = Array.isArray(election.candidates)
-    ? election.candidates
-    : [];
+  const database = readDatabase();
+  const checkedAt = new Date().toISOString();
 
-  if (!candidates.length) {
-    console.log("No ongoing election. Nothing was changed.");
-    return;
+  database._meta = {
+    currentMayor:
+      database._meta?.currentMayor || null,
+    lastCheckedAt: checkedAt
+  };
+
+  const currentMayorName = cleanText(
+    data.mayor?.name || ""
+  );
+
+  const previousMayorName =
+    database._meta.currentMayor;
+
+  if (
+    currentMayorName &&
+    currentMayorName !== previousMayorName
+  ) {
+    if (previousMayorName) {
+      const previousMayor = ensureMayor(
+        database,
+        previousMayorName
+      );
+
+      previousMayor.isCurrentMayor = false;
+      previousMayor.lastMayorEndedAt = checkedAt;
+    }
+
+    for (const name of Object.keys(database)) {
+      if (name === "_meta") {
+        continue;
+      }
+
+      ensureMayor(database, name)
+        .isCurrentMayor = false;
+    }
+
+    const currentMayor = ensureMayor(
+      database,
+      currentMayorName
+    );
+
+    currentMayor.isCurrentMayor = true;
+    currentMayor.lastBecameMayorAt = checkedAt;
+    currentMayor.lastMayorEndedAt = null;
+
+    database._meta.currentMayor =
+      currentMayorName;
+
+    console.log(
+      previousMayorName
+        ? `Mayor changed from ${previousMayorName} to ${currentMayorName}.`
+        : `Started tracking current mayor ${currentMayorName}.`
+    );
+  } else if (currentMayorName) {
+    const currentMayor = ensureMayor(
+      database,
+      currentMayorName
+    );
+
+    currentMayor.isCurrentMayor = true;
   }
 
-  const database = readDatabase();
-  const updatedAt = new Date().toISOString();
+  const election =
+    data.election || data.current || {};
+
+  const candidates =
+    Array.isArray(election.candidates)
+      ? election.candidates
+      : [];
 
   for (const candidate of candidates) {
     const name = cleanText(
-      candidate.name || candidate.key || ""
+      candidate.name ||
+      candidate.key ||
+      ""
     );
 
     if (!name) {
       continue;
     }
 
-    const perks = Array.isArray(candidate.perks)
+    const record = ensureMayor(
+      database,
+      name
+    );
+
+    record.perks = Array.isArray(
+      candidate.perks
+    )
       ? candidate.perks.map(perk => ({
-          name: cleanText(perk.name || "Unknown perk"),
+          name: cleanText(
+            perk.name || "Unknown perk"
+          ),
           description: cleanText(
-            perk.description || "No description available."
+            perk.description ||
+            "No description available."
           ),
           minister: Boolean(perk.minister)
         }))
       : [];
 
-    database[name] = {
-      perks,
-      lastSeenYear: election.year ?? null,
-      updatedAt
-    };
+    record.lastSeenYear =
+      election.year ?? null;
+
+    record.updatedAt = checkedAt;
   }
 
-  fs.mkdirSync(path.dirname(DATA_PATH), {
-    recursive: true
-  });
+  fs.mkdirSync(
+    path.dirname(DATA_PATH),
+    { recursive: true }
+  );
 
   fs.writeFileSync(
     DATA_PATH,
@@ -97,7 +210,9 @@ async function updateElection() {
   );
 
   console.log(
-    `Saved ${candidates.length} candidates from Year ${election.year ?? "unknown"}.`
+    candidates.length
+      ? `Saved ${candidates.length} candidates and their perks.`
+      : "No ongoing election. Mayor status was checked."
   );
 }
 
