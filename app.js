@@ -88,44 +88,57 @@ function renderLeadership(mayor) {
   }
 }
 
-function renderCandidates(election) {
-  const candidates = [...(election?.candidates || [])].sort(
+function renderCandidates(election, mayor) {
+  const allCandidates = [...(election?.candidates || [])].sort(
     (a, b) => (b.votes || 0) - (a.votes || 0)
   );
 
-  const totalVotes = candidates.reduce(
+  const totalVotes = allCandidates.reduce(
     (sum, candidate) => sum + (candidate.votes || 0),
     0
   );
 
+  const selectedMayorName = cleanText(mayor?.name || "").toLowerCase();
+
+  const unselectedCandidates = allCandidates.filter(candidate => {
+    const candidateName = cleanText(
+      candidate.name || candidate.key || ""
+    ).toLowerCase();
+
+    return candidateName !== selectedMayorName;
+  });
+
   elements.electionTitle.textContent = election?.year
-    ? `Year ${election.year} candidates`
-    : "Candidates";
+    ? `Year ${election.year} unselected candidates`
+    : "Unselected candidates";
 
   elements.totalVotes.textContent = numberFormatter.format(totalVotes);
   elements.candidateGrid.replaceChildren();
 
-  if (!candidates.length) {
+  if (!unselectedCandidates.length) {
     const empty = document.createElement("div");
     empty.className = "empty";
-    empty.textContent = "There is no ongoing election right now.";
+    empty.textContent = "No unselected candidates are available.";
     elements.candidateGrid.append(empty);
     return;
   }
 
-  candidates.forEach((candidate, index) => {
+  unselectedCandidates.forEach(candidate => {
     const fragment = elements.candidateTemplate.content.cloneNode(true);
     const card = fragment.querySelector("article");
 
     const votes = candidate.votes || 0;
-    const percentage = totalVotes ? (votes / totalVotes) * 100 : 0;
+    const percentage = totalVotes
+      ? (votes / totalVotes) * 100
+      : 0;
 
-    if (index === 0) {
-      card.classList.add("leading");
-    }
+    const originalRank =
+      allCandidates.findIndex(item => item === candidate) + 1;
 
     card.querySelector(".rank").textContent =
-      index === 0 ? "CURRENT LEADER" : `RANK ${index + 1}`;
+      originalRank === 2
+        ? "RUNNER-UP"
+        : `RANK ${originalRank}`;
 
     card.querySelector(".candidate-name").textContent = cleanText(
       candidate.name || candidate.key || "Unknown"
@@ -135,7 +148,10 @@ function renderCandidates(election) {
     const voteTotal = document.createElement("strong");
 
     voteTotal.textContent = numberFormatter.format(votes);
-    voteElement.append(voteTotal, `${percentage.toFixed(1)}%`);
+    voteElement.append(
+      voteTotal,
+      `${percentage.toFixed(1)}%`
+    );
 
     const voteBar = card.querySelector(".vote-bar");
     voteBar.querySelector("span").style.width = `${percentage}%`;
@@ -149,6 +165,13 @@ function renderCandidates(election) {
     (candidate.perks || []).forEach(perk => {
       perks.append(perkElement(perk));
     });
+
+    if (!candidate.perks?.length) {
+      const emptyPerk = document.createElement("div");
+      emptyPerk.className = "perk";
+      emptyPerk.textContent = "No perks listed.";
+      perks.append(emptyPerk);
+    }
 
     elements.candidateGrid.append(fragment);
   });
@@ -169,19 +192,25 @@ async function loadElection() {
     });
 
     if (!response.ok) {
-      throw new Error(`Request failed with status ${response.status}`);
+      throw new Error(
+        `Request failed with status ${response.status}`
+      );
     }
 
     const data = await response.json();
 
     if (!data.success) {
       throw new Error(
-        data.cause || "Hypixel returned an unsuccessful response"
+        data.cause ||
+        "Hypixel returned an unsuccessful response"
       );
     }
 
-    renderLeadership(data.mayor || {});
-    renderCandidates(data.election || data.current || {});
+    const mayor = data.mayor || {};
+    const election = data.election || data.current || {};
+
+    renderLeadership(mayor);
+    renderCandidates(election, mayor);
 
     const updated = data.lastUpdated
       ? new Date(data.lastUpdated)
