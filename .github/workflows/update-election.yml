@@ -1,1 +1,38 @@
+name: Save SkyBlock election perks
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-election:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Save current election
+        run: node scripts/update-election.js
+
+      - name: Commit saved data
+        run: |
+          if git diff --quiet -- data/mayors.json; then
+            echo "No election data changed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/mayors.json
+          git commit -m "Update saved mayor perks"
+          git push
