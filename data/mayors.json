@@ -1,12 +1,57 @@
 {
-  "Aatrox":[],
-  "Cole":[],
-  "Diana":[],
-  "Finnegan":[],
-  "Foxy":[],
-  "Marina":[],
-  "Paul":[],
-  "Derpy":[],
-  "Jerry":[],
-  "Scorpius":[]
+  "Aatrox": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  },
+  "Cole": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  },
+  "Diana": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  },
+  "Diaz": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  },
+  "Finnegan": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  },
+  "Foxy": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  },
+  "Marina": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  },
+  "Paul": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  },
+  "Derpy": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  },
+  "Jerry": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  },
+  "Scorpius": {
+    "perks": [],
+    "lastSeenYear": null,
+    "updatedAt": null
+  }
 }
