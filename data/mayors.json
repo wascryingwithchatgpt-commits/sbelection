@@ -1,12 +1,28 @@
 {
   "_meta": {
-    "currentMayor": null,
-    "lastCheckedAt": null
+    "currentMayor": "Finnegan",
+    "lastCheckedAt": "2026-09-15T20:01:21.184Z"
   },
   "Aatrox": {
-    "perks": [],
-    "lastSeenYear": null,
-    "updatedAt": null,
+    "perks": [
+      {
+        "name": "SLASHED Pricing",
+        "description": "Starting slayer quests is half price.",
+        "minister": true
+      },
+      {
+        "name": "Slayer XP Buff",
+        "description": "Earn 25% more Slayer XP.",
+        "minister": false
+      },
+      {
+        "name": "Pathfinder",
+        "description": "Gain rare drops 20% more often.",
+        "minister": false
+      }
+    ],
+    "lastSeenYear": 514,
+    "updatedAt": "2026-09-15T20:01:21.184Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
@@ -20,9 +36,20 @@
     "lastMayorEndedAt": null
   },
   "Diana": {
-    "perks": [],
-    "lastSeenYear": null,
-    "updatedAt": null,
+    "perks": [
+      {
+        "name": "Pet XP Buff",
+        "description": "Gain 35% more pet XP.",
+        "minister": false
+      },
+      {
+        "name": "Sharing is Caring",
+        "description": "Unlocks 2 more Exp Share slots in your pets menu and increases the Exp Share rate by +10%!",
+        "minister": true
+      }
+    ],
+    "lastSeenYear": 514,
+    "updatedAt": "2026-09-15T20:01:21.184Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
@@ -39,30 +66,58 @@
     "perks": [],
     "lastSeenYear": null,
     "updatedAt": null,
-    "isCurrentMayor": false,
-    "lastBecameMayorAt": null,
+    "isCurrentMayor": true,
+    "lastBecameMayorAt": "2026-09-15T20:01:21.184Z",
     "lastMayorEndedAt": null
   },
   "Foxy": {
-    "perks": [],
-    "lastSeenYear": null,
-    "updatedAt": null,
+    "perks": [
+      {
+        "name": "Extra Event",
+        "description": "Schedules an extra Fishing Festival event during the year.",
+        "minister": true
+      }
+    ],
+    "lastSeenYear": 514,
+    "updatedAt": "2026-09-15T20:01:21.184Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
   },
   "Marina": {
-    "perks": [],
-    "lastSeenYear": null,
-    "updatedAt": null,
+    "perks": [
+      {
+        "name": "Fishing XP Buff",
+        "description": "Gain +50☯ Fishing Wisdom on public islands.",
+        "minister": false
+      },
+      {
+        "name": "Double Trouble",
+        "description": "For every 1 Sea Creature Chance, gain +0.1 Double Hook Chance.",
+        "minister": true
+      }
+    ],
+    "lastSeenYear": 514,
+    "updatedAt": "2026-09-15T20:01:21.184Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
   },
   "Paul": {
-    "perks": [],
-    "lastSeenYear": null,
-    "updatedAt": null,
+    "perks": [
+      {
+        "name": "Marauder",
+        "description": "Dungeon reward chests are 20% cheaper.",
+        "minister": true
+      },
+      {
+        "name": "Benediction",
+        "description": "Blessings are 25% stronger.",
+        "minister": false
+      }
+    ],
+    "lastSeenYear": 514,
+    "updatedAt": "2026-09-15T20:01:21.184Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
