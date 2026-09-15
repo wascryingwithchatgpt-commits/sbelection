@@ -1,57 +1,94 @@
 {
+  "_meta": {
+    "currentMayor": null,
+    "lastCheckedAt": null
+  },
   "Aatrox": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   },
   "Cole": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   },
   "Diana": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   },
   "Diaz": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   },
   "Finnegan": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   },
   "Foxy": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   },
   "Marina": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   },
   "Paul": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   },
   "Derpy": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   },
   "Jerry": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   },
   "Scorpius": {
     "perks": [],
     "lastSeenYear": null,
-    "updatedAt": null
+    "updatedAt": null,
+    "isCurrentMayor": false,
+    "lastBecameMayorAt": null,
+    "lastMayorEndedAt": null
   }
 }
