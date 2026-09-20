@@ -1,7 +1,7 @@
 {
   "_meta": {
     "currentMayor": "Aatrox",
-    "lastCheckedAt": "2026-09-20T20:58:58.283Z"
+    "lastCheckedAt": "2026-09-20T23:09:19.435Z"
   },
   "Aatrox": {
     "perks": [
@@ -28,9 +28,15 @@
     "lastMayorEndedAt": null
   },
   "Cole": {
-    "perks": [],
-    "lastSeenYear": null,
-    "updatedAt": null,
+    "perks": [
+      {
+        "name": "Mining Fiesta",
+        "description": "Schedules 5 Mining Fiestas throughout the year! During these events gain +75☯ Mining Wisdom, collect Refined Mineral and Glossy Gemstone, and earn 2x drops from mining!",
+        "minister": true
+      }
+    ],
+    "lastSeenYear": 515,
+    "updatedAt": "2026-09-20T23:09:19.435Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
@@ -48,16 +54,27 @@
         "minister": true
       }
     ],
-    "lastSeenYear": 514,
-    "updatedAt": "2026-09-19T13:25:02.416Z",
+    "lastSeenYear": 515,
+    "updatedAt": "2026-09-20T23:09:19.435Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
   },
   "Diaz": {
-    "perks": [],
-    "lastSeenYear": null,
-    "updatedAt": null,
+    "perks": [
+      {
+        "name": "Volume Trading",
+        "description": "The available item quantity per Shen's Auction has been doubled, and two additional Shen's Special auctions will be available if Diaz is Mayor.",
+        "minister": false
+      },
+      {
+        "name": "Long Term Investment",
+        "description": "The elected minister will appear as a candidate with all of their perks in the next election cycle.",
+        "minister": true
+      }
+    ],
+    "lastSeenYear": 515,
+    "updatedAt": "2026-09-20T23:09:19.435Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
@@ -73,13 +90,18 @@
   "Foxy": {
     "perks": [
       {
-        "name": "Extra Event",
-        "description": "Schedules an extra Fishing Festival event during the year.",
+        "name": "Chivalrous Carnival",
+        "description": "Schedules a Carnival in the hub, active throughout the entire year.",
         "minister": true
+      },
+      {
+        "name": "Extra Event",
+        "description": "Schedules an extra Mining Fiesta event during the year.",
+        "minister": false
       }
     ],
-    "lastSeenYear": 514,
-    "updatedAt": "2026-09-19T13:25:02.416Z",
+    "lastSeenYear": 515,
+    "updatedAt": "2026-09-20T23:09:19.435Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
@@ -108,16 +130,16 @@
       {
         "name": "Marauder",
         "description": "Dungeon reward chests are 20% cheaper.",
-        "minister": true
+        "minister": false
       },
       {
         "name": "Benediction",
         "description": "Blessings are 25% stronger.",
-        "minister": false
+        "minister": true
       }
     ],
-    "lastSeenYear": 514,
-    "updatedAt": "2026-09-19T13:25:02.416Z",
+    "lastSeenYear": 515,
+    "updatedAt": "2026-09-20T23:09:19.435Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
