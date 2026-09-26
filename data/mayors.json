@@ -1,7 +1,7 @@
 {
   "_meta": {
     "currentMayor": "Diaz",
-    "lastCheckedAt": "2026-09-26T01:33:50.912Z"
+    "lastCheckedAt": "2026-09-26T06:37:59.155Z"
   },
   "Aatrox": {
     "perks": [
@@ -30,19 +30,39 @@
   "Cole": {
     "perks": [
       {
+        "name": "Prospection",
+        "description": "Mining minions work 25% faster.",
+        "minister": false
+      },
+      {
+        "name": "Mining XP Buff",
+        "description": "Get +60☯ Mining Wisdom on public islands.",
+        "minister": true
+      },
+      {
         "name": "Mining Fiesta",
         "description": "Schedules 5 Mining Fiestas throughout the year! During these events gain +75☯ Mining Wisdom, collect Refined Mineral and Glossy Gemstone, and earn 2x drops from mining!",
-        "minister": true
+        "minister": false
+      },
+      {
+        "name": "Molten Forge",
+        "description": "Decrease the time it takes to forge items by 25%.",
+        "minister": false
       }
     ],
-    "lastSeenYear": 515,
-    "updatedAt": "2026-09-24T15:25:32.004Z",
+    "lastSeenYear": 516,
+    "updatedAt": "2026-09-26T06:37:59.155Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
   },
   "Diana": {
     "perks": [
+      {
+        "name": "Mythological Ritual",
+        "description": "Minister Diana will sell the Griffin Pet, which lets you find Mythological Creatures and tons of unique items.",
+        "minister": false
+      },
       {
         "name": "Pet XP Buff",
         "description": "Gain 35% more pet XP.",
@@ -54,8 +74,8 @@
         "minister": true
       }
     ],
-    "lastSeenYear": 515,
-    "updatedAt": "2026-09-24T15:25:32.004Z",
+    "lastSeenYear": 516,
+    "updatedAt": "2026-09-26T06:37:59.155Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
@@ -80,9 +100,15 @@
     "lastMayorEndedAt": null
   },
   "Finnegan": {
-    "perks": [],
-    "lastSeenYear": null,
-    "updatedAt": null,
+    "perks": [
+      {
+        "name": "Pest Eradicator",
+        "description": "The duration of Pesthunter Phillip's  Farming Fortune bonus is now 60m. Decreases the spawn cooldown of Pests by 20%.",
+        "minister": true
+      }
+    ],
+    "lastSeenYear": 516,
+    "updatedAt": "2026-09-26T06:37:59.155Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-15T20:01:21.184Z",
     "lastMayorEndedAt": "2026-09-19T16:40:02.904Z"
@@ -90,18 +116,23 @@
   "Foxy": {
     "perks": [
       {
+        "name": "A Time for Giving",
+        "description": "Spawn Party Chests by killing mobs during the Spooky Festival and collect Party Gifts from Jerry's Workshop.",
+        "minister": false
+      },
+      {
         "name": "Chivalrous Carnival",
         "description": "Schedules a Carnival in the hub, active throughout the entire year.",
         "minister": true
       },
       {
         "name": "Extra Event",
-        "description": "Schedules an extra Mining Fiesta event during the year.",
+        "description": "Schedules an extra Spooky Festival event during the year.",
         "minister": false
       }
     ],
-    "lastSeenYear": 515,
-    "updatedAt": "2026-09-24T15:25:32.004Z",
+    "lastSeenYear": 516,
+    "updatedAt": "2026-09-26T06:37:59.155Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
@@ -114,13 +145,18 @@
         "minister": false
       },
       {
+        "name": "Luck of the Sea 2.0",
+        "description": "Gain 15 Sea Creature Chance.",
+        "minister": true
+      },
+      {
         "name": "Double Trouble",
         "description": "For every 1 Sea Creature Chance, gain +0.1 Double Hook Chance.",
-        "minister": true
+        "minister": false
       }
     ],
-    "lastSeenYear": 514,
-    "updatedAt": "2026-09-19T13:25:02.416Z",
+    "lastSeenYear": 516,
+    "updatedAt": "2026-09-26T06:37:59.155Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
