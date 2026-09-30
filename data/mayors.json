@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "currentMayor": "Diaz",
-    "lastCheckedAt": "2026-09-29T22:57:20.226Z"
+    "currentMayor": "Diana",
+    "lastCheckedAt": "2026-09-30T01:54:44.548Z"
   },
   "Aatrox": {
     "perks": [
@@ -76,8 +76,8 @@
     ],
     "lastSeenYear": 516,
     "updatedAt": "2026-09-29T22:57:20.226Z",
-    "isCurrentMayor": false,
-    "lastBecameMayorAt": null,
+    "isCurrentMayor": true,
+    "lastBecameMayorAt": "2026-09-30T01:54:44.548Z",
     "lastMayorEndedAt": null
   },
   "Diaz": {
@@ -95,9 +95,9 @@
     ],
     "lastSeenYear": 515,
     "updatedAt": "2026-09-24T15:25:32.004Z",
-    "isCurrentMayor": true,
+    "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-24T19:24:42.688Z",
-    "lastMayorEndedAt": null
+    "lastMayorEndedAt": "2026-09-30T01:54:44.548Z"
   },
   "Finnegan": {
     "perks": [
