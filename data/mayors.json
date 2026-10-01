@@ -1,28 +1,18 @@
 {
   "_meta": {
     "currentMayor": "Diana",
-    "lastCheckedAt": "2026-10-01T02:20:38.996Z"
+    "lastCheckedAt": "2026-10-01T09:16:34.350Z"
   },
   "Aatrox": {
     "perks": [
       {
-        "name": "SLASHED Pricing",
-        "description": "Starting slayer quests is half price.",
-        "minister": true
-      },
-      {
-        "name": "Slayer XP Buff",
-        "description": "Earn 25% more Slayer XP.",
-        "minister": false
-      },
-      {
         "name": "Pathfinder",
         "description": "Gain rare drops 20% more often.",
-        "minister": false
+        "minister": true
       }
     ],
-    "lastSeenYear": 514,
-    "updatedAt": "2026-09-19T13:25:02.416Z",
+    "lastSeenYear": 517,
+    "updatedAt": "2026-10-01T09:16:34.350Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-19T16:40:02.904Z",
     "lastMayorEndedAt": "2026-09-24T19:24:42.688Z"
@@ -85,16 +75,11 @@
       {
         "name": "Volume Trading",
         "description": "The available item quantity per Shen's Auction has been doubled, and two additional Shen's Special auctions will be available if Diaz is Mayor.",
-        "minister": false
-      },
-      {
-        "name": "Long Term Investment",
-        "description": "The elected minister will appear as a candidate with all of their perks in the next election cycle.",
         "minister": true
       }
     ],
-    "lastSeenYear": 515,
-    "updatedAt": "2026-09-24T15:25:32.004Z",
+    "lastSeenYear": 517,
+    "updatedAt": "2026-10-01T09:16:34.350Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-24T19:24:42.688Z",
     "lastMayorEndedAt": "2026-09-30T01:54:44.548Z"
@@ -107,8 +92,8 @@
         "minister": true
       }
     ],
-    "lastSeenYear": 516,
-    "updatedAt": "2026-09-29T22:57:20.226Z",
+    "lastSeenYear": 517,
+    "updatedAt": "2026-10-01T09:16:34.350Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-15T20:01:21.184Z",
     "lastMayorEndedAt": "2026-09-19T16:40:02.904Z"
@@ -123,16 +108,16 @@
       {
         "name": "Chivalrous Carnival",
         "description": "Schedules a Carnival in the hub, active throughout the entire year.",
-        "minister": true
+        "minister": false
       },
       {
         "name": "Extra Event",
-        "description": "Schedules an extra Spooky Festival event during the year.",
-        "minister": false
+        "description": "Schedules an extra Fishing Festival event during the year.",
+        "minister": true
       }
     ],
-    "lastSeenYear": 516,
-    "updatedAt": "2026-09-29T22:57:20.226Z",
+    "lastSeenYear": 517,
+    "updatedAt": "2026-10-01T09:16:34.350Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
@@ -147,16 +132,16 @@
       {
         "name": "Luck of the Sea 2.0",
         "description": "Gain 15 Sea Creature Chance.",
-        "minister": true
+        "minister": false
       },
       {
         "name": "Double Trouble",
         "description": "For every 1 Sea Creature Chance, gain +0.1 Double Hook Chance.",
-        "minister": false
+        "minister": true
       }
     ],
-    "lastSeenYear": 516,
-    "updatedAt": "2026-09-29T22:57:20.226Z",
+    "lastSeenYear": 517,
+    "updatedAt": "2026-10-01T09:16:34.350Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
