@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "currentMayor": "Diana",
-    "lastCheckedAt": "2026-10-04T23:50:32.867Z"
+    "currentMayor": "Marina",
+    "lastCheckedAt": "2026-10-05T04:14:59.578Z"
   },
   "Aatrox": {
     "perks": [
@@ -66,9 +66,9 @@
     ],
     "lastSeenYear": 516,
     "updatedAt": "2026-09-29T22:57:20.226Z",
-    "isCurrentMayor": true,
+    "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-30T01:54:44.548Z",
-    "lastMayorEndedAt": null
+    "lastMayorEndedAt": "2026-10-05T04:14:59.578Z"
   },
   "Diaz": {
     "perks": [
@@ -142,8 +142,8 @@
     ],
     "lastSeenYear": 517,
     "updatedAt": "2026-10-04T23:50:32.867Z",
-    "isCurrentMayor": false,
-    "lastBecameMayorAt": null,
+    "isCurrentMayor": true,
+    "lastBecameMayorAt": "2026-10-05T04:14:59.578Z",
     "lastMayorEndedAt": null
   },
   "Paul": {
