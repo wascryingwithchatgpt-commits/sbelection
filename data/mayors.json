@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "currentMayor": "Marina",
-    "lastCheckedAt": "2026-10-10T04:30:05.293Z"
+    "currentMayor": "Paul",
+    "lastCheckedAt": "2026-10-10T10:46:11.358Z"
   },
   "Aatrox": {
     "perks": [
@@ -132,9 +132,9 @@
     ],
     "lastSeenYear": 517,
     "updatedAt": "2026-10-04T23:50:32.867Z",
-    "isCurrentMayor": true,
+    "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-05T04:14:59.578Z",
-    "lastMayorEndedAt": null
+    "lastMayorEndedAt": "2026-10-10T10:46:11.358Z"
   },
   "Paul": {
     "perks": [
@@ -151,8 +151,8 @@
     ],
     "lastSeenYear": 518,
     "updatedAt": "2026-10-10T04:30:05.293Z",
-    "isCurrentMayor": false,
-    "lastBecameMayorAt": null,
+    "isCurrentMayor": true,
+    "lastBecameMayorAt": "2026-10-10T10:46:11.358Z",
     "lastMayorEndedAt": null
   },
   "Derpy": {
