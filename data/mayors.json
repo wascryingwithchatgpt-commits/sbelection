@@ -1,7 +1,7 @@
 {
   "_meta": {
     "currentMayor": "Paul",
-    "lastCheckedAt": "2026-10-11T08:54:56.834Z"
+    "lastCheckedAt": "2026-10-11T15:20:39.265Z"
   },
   "Aatrox": {
     "perks": [
@@ -11,8 +11,8 @@
         "minister": true
       }
     ],
-    "lastSeenYear": 518,
-    "updatedAt": "2026-10-10T04:30:05.293Z",
+    "lastSeenYear": 519,
+    "updatedAt": "2026-10-11T15:20:39.265Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-19T16:40:02.904Z",
     "lastMayorEndedAt": "2026-09-24T19:24:42.688Z"
@@ -39,23 +39,13 @@
   "Diana": {
     "perks": [
       {
-        "name": "Mythological Ritual",
-        "description": "Minister Diana will sell the Griffin Pet, which lets you find Mythological Creatures and tons of unique items.",
-        "minister": false
-      },
-      {
-        "name": "Pet XP Buff",
-        "description": "Gain 35% more pet XP.",
-        "minister": false
-      },
-      {
         "name": "Sharing is Caring",
         "description": "Unlocks 2 more Exp Share slots in your pets menu and increases the Exp Share rate by +10%!",
         "minister": true
       }
     ],
-    "lastSeenYear": 516,
-    "updatedAt": "2026-09-29T22:57:20.226Z",
+    "lastSeenYear": 519,
+    "updatedAt": "2026-10-11T15:20:39.265Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-30T01:54:44.548Z",
     "lastMayorEndedAt": "2026-10-05T04:14:59.578Z"
@@ -63,13 +53,18 @@
   "Diaz": {
     "perks": [
       {
+        "name": "Stock Exchange",
+        "description": "Participate in the Stonks Auction for a chance to win Stock of Stonks! Trade them for extravagant items at the Trade Center.",
+        "minister": true
+      },
+      {
         "name": "Volume Trading",
         "description": "The available item quantity per Shen's Auction has been doubled, and two additional Shen's Special auctions will be available if Diaz is Mayor.",
-        "minister": true
+        "minister": false
       }
     ],
-    "lastSeenYear": 518,
-    "updatedAt": "2026-10-10T04:30:05.293Z",
+    "lastSeenYear": 519,
+    "updatedAt": "2026-10-11T15:20:39.265Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-24T19:24:42.688Z",
     "lastMayorEndedAt": "2026-09-30T01:54:44.548Z"
@@ -79,11 +74,16 @@
       {
         "name": "Pest Eradicator",
         "description": "The duration of Pesthunter Phillip's  Farming Fortune bonus is now 60m. Decreases the spawn cooldown of Pests by 20%.",
+        "minister": false
+      },
+      {
+        "name": "Blooming Business",
+        "description": "All Garden Visitors reward Fine Flour and +10% Copper for accepting offers. Invites 5 unique visitors to your Garden and makes higher rarity visitors 20% more likely to show up.",
         "minister": true
       }
     ],
-    "lastSeenYear": 518,
-    "updatedAt": "2026-10-10T04:30:05.293Z",
+    "lastSeenYear": 519,
+    "updatedAt": "2026-10-11T15:20:39.265Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-15T20:01:21.184Z",
     "lastMayorEndedAt": "2026-09-19T16:40:02.904Z"
@@ -117,21 +117,11 @@
       {
         "name": "Fishing XP Buff",
         "description": "Gain +50☯ Fishing Wisdom on public islands.",
-        "minister": false
-      },
-      {
-        "name": "Luck of the Sea 2.0",
-        "description": "Gain 15 Sea Creature Chance.",
-        "minister": false
-      },
-      {
-        "name": "Double Trouble",
-        "description": "For every 1 Sea Creature Chance, gain +0.1 Double Hook Chance.",
         "minister": true
       }
     ],
-    "lastSeenYear": 517,
-    "updatedAt": "2026-10-04T23:50:32.867Z",
+    "lastSeenYear": 519,
+    "updatedAt": "2026-10-11T15:20:39.265Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-05T04:14:59.578Z",
     "lastMayorEndedAt": "2026-10-10T10:46:11.358Z"
