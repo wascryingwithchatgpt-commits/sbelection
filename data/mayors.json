@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "currentMayor": "Paul",
-    "lastCheckedAt": "2026-10-15T10:19:20.044Z"
+    "currentMayor": "Diaz",
+    "lastCheckedAt": "2026-10-15T15:13:23.065Z"
   },
   "Aatrox": {
     "perks": [
@@ -65,9 +65,9 @@
     ],
     "lastSeenYear": 519,
     "updatedAt": "2026-10-15T10:19:20.044Z",
-    "isCurrentMayor": false,
-    "lastBecameMayorAt": "2026-09-24T19:24:42.688Z",
-    "lastMayorEndedAt": "2026-09-30T01:54:44.548Z"
+    "isCurrentMayor": true,
+    "lastBecameMayorAt": "2026-10-15T15:13:23.065Z",
+    "lastMayorEndedAt": null
   },
   "Finnegan": {
     "perks": [
@@ -141,9 +141,9 @@
     ],
     "lastSeenYear": 518,
     "updatedAt": "2026-10-10T04:30:05.293Z",
-    "isCurrentMayor": true,
+    "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-10T10:46:11.358Z",
-    "lastMayorEndedAt": null
+    "lastMayorEndedAt": "2026-10-15T15:13:23.065Z"
   },
   "Derpy": {
     "perks": [],
