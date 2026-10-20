@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "currentMayor": "Diaz",
-    "lastCheckedAt": "2026-10-20T13:00:19.476Z"
+    "currentMayor": "Jerry",
+    "lastCheckedAt": "2026-10-20T17:58:31.500Z"
   },
   "Aatrox": {
     "perks": [
@@ -70,9 +70,9 @@
     ],
     "lastSeenYear": 519,
     "updatedAt": "2026-10-15T10:19:20.044Z",
-    "isCurrentMayor": true,
+    "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-15T15:13:23.065Z",
-    "lastMayorEndedAt": null
+    "lastMayorEndedAt": "2026-10-20T17:58:31.500Z"
   },
   "Finnegan": {
     "perks": [
@@ -178,8 +178,8 @@
     ],
     "lastSeenYear": 520,
     "updatedAt": "2026-10-20T13:00:19.476Z",
-    "isCurrentMayor": false,
-    "lastBecameMayorAt": null,
+    "isCurrentMayor": true,
+    "lastBecameMayorAt": "2026-10-20T17:58:31.500Z",
     "lastMayorEndedAt": null
   },
   "Scorpius": {
