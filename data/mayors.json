@@ -1,18 +1,23 @@
 {
   "_meta": {
     "currentMayor": "Jerry",
-    "lastCheckedAt": "2026-10-21T19:07:07.898Z"
+    "lastCheckedAt": "2026-10-21T22:21:14.368Z"
   },
   "Aatrox": {
     "perks": [
       {
+        "name": "Slayer XP Buff",
+        "description": "Earn 25% more Slayer XP.",
+        "minister": true
+      },
+      {
         "name": "Pathfinder",
         "description": "Gain rare drops 20% more often.",
-        "minister": true
+        "minister": false
       }
     ],
-    "lastSeenYear": 519,
-    "updatedAt": "2026-10-15T10:19:20.044Z",
+    "lastSeenYear": 521,
+    "updatedAt": "2026-10-21T22:21:14.368Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-19T16:40:02.904Z",
     "lastMayorEndedAt": "2026-09-24T19:24:42.688Z"
@@ -22,7 +27,7 @@
       {
         "name": "Prospection",
         "description": "Mining minions work 25% faster.",
-        "minister": true
+        "minister": false
       },
       {
         "name": "Mining Fiesta",
@@ -32,11 +37,11 @@
       {
         "name": "Molten Forge",
         "description": "Decrease the time it takes to forge items by 25%.",
-        "minister": false
+        "minister": true
       }
     ],
-    "lastSeenYear": 520,
-    "updatedAt": "2026-10-20T13:00:19.476Z",
+    "lastSeenYear": 521,
+    "updatedAt": "2026-10-21T22:21:14.368Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
@@ -61,15 +66,10 @@
         "name": "Stock Exchange",
         "description": "Participate in the Stonks Auction for a chance to win Stock of Stonks! Trade them for extravagant items at the Trade Center.",
         "minister": true
-      },
-      {
-        "name": "Volume Trading",
-        "description": "The available item quantity per Shen's Auction has been doubled, and two additional Shen's Special auctions will be available if Diaz is Mayor.",
-        "minister": false
       }
     ],
-    "lastSeenYear": 519,
-    "updatedAt": "2026-10-15T10:19:20.044Z",
+    "lastSeenYear": 521,
+    "updatedAt": "2026-10-21T22:21:14.368Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-15T15:13:23.065Z",
     "lastMayorEndedAt": "2026-10-20T17:58:31.500Z"
@@ -127,11 +127,16 @@
       {
         "name": "Fishing XP Buff",
         "description": "Gain +50☯ Fishing Wisdom on public islands.",
+        "minister": false
+      },
+      {
+        "name": "Double Trouble",
+        "description": "For every 1 Sea Creature Chance, gain +0.1 Double Hook Chance.",
         "minister": true
       }
     ],
-    "lastSeenYear": 520,
-    "updatedAt": "2026-10-20T13:00:19.476Z",
+    "lastSeenYear": 521,
+    "updatedAt": "2026-10-21T22:21:14.368Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-05T04:14:59.578Z",
     "lastMayorEndedAt": "2026-10-10T10:46:11.358Z"
@@ -144,8 +149,8 @@
         "minister": true
       }
     ],
-    "lastSeenYear": 520,
-    "updatedAt": "2026-10-20T13:00:19.476Z",
+    "lastSeenYear": 521,
+    "updatedAt": "2026-10-21T22:21:14.368Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-10T10:46:11.358Z",
     "lastMayorEndedAt": "2026-10-15T15:13:23.065Z"
