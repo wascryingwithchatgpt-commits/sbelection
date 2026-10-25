@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "currentMayor": "Jerry",
-    "lastCheckedAt": "2026-10-25T17:45:27.185Z"
+    "currentMayor": "Cole",
+    "lastCheckedAt": "2026-10-25T20:25:08.507Z"
   },
   "Aatrox": {
     "perks": [
@@ -42,8 +42,8 @@
     ],
     "lastSeenYear": 521,
     "updatedAt": "2026-10-25T17:45:27.185Z",
-    "isCurrentMayor": false,
-    "lastBecameMayorAt": null,
+    "isCurrentMayor": true,
+    "lastBecameMayorAt": "2026-10-25T20:25:08.507Z",
     "lastMayorEndedAt": null
   },
   "Diana": {
@@ -183,9 +183,9 @@
     ],
     "lastSeenYear": 520,
     "updatedAt": "2026-10-20T13:00:19.476Z",
-    "isCurrentMayor": true,
+    "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-20T17:58:31.500Z",
-    "lastMayorEndedAt": null
+    "lastMayorEndedAt": "2026-10-25T20:25:08.507Z"
   },
   "Scorpius": {
     "perks": [],
