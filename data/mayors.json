@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "currentMayor": "Aatrox",
-    "lastCheckedAt": "2026-11-04T23:15:02.203Z"
+    "currentMayor": "Paul",
+    "lastCheckedAt": "2026-11-05T03:32:28.435Z"
   },
   "Aatrox": {
     "perks": [
@@ -23,9 +23,9 @@
     ],
     "lastSeenYear": 522,
     "updatedAt": "2026-10-30T23:15:31.232Z",
-    "isCurrentMayor": true,
+    "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-31T02:38:01.162Z",
-    "lastMayorEndedAt": null
+    "lastMayorEndedAt": "2026-11-05T03:32:28.435Z"
   },
   "Cole": {
     "perks": [
@@ -151,9 +151,9 @@
     ],
     "lastSeenYear": 523,
     "updatedAt": "2026-11-04T23:15:02.203Z",
-    "isCurrentMayor": false,
-    "lastBecameMayorAt": "2026-10-10T10:46:11.358Z",
-    "lastMayorEndedAt": "2026-10-15T15:13:23.065Z"
+    "isCurrentMayor": true,
+    "lastBecameMayorAt": "2026-11-05T03:32:28.435Z",
+    "lastMayorEndedAt": null
   },
   "Derpy": {
     "perks": [],
