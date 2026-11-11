@@ -1,7 +1,7 @@
 {
   "_meta": {
     "currentMayor": "Foxy",
-    "lastCheckedAt": "2026-11-11T10:56:28.173Z"
+    "lastCheckedAt": "2026-11-11T18:26:55.837Z"
   },
   "Aatrox": {
     "perks": [
@@ -11,8 +11,8 @@
         "minister": true
       }
     ],
-    "lastSeenYear": 524,
-    "updatedAt": "2026-11-10T02:51:02.949Z",
+    "lastSeenYear": 525,
+    "updatedAt": "2026-11-11T18:26:55.837Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-31T02:38:01.162Z",
     "lastMayorEndedAt": "2026-11-05T03:32:28.435Z"
@@ -25,8 +25,8 @@
         "minister": true
       }
     ],
-    "lastSeenYear": 523,
-    "updatedAt": "2026-11-04T23:15:02.203Z",
+    "lastSeenYear": 525,
+    "updatedAt": "2026-11-11T18:26:55.837Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-25T20:25:08.507Z",
     "lastMayorEndedAt": "2026-10-31T02:38:01.162Z"
@@ -34,13 +34,18 @@
   "Diana": {
     "perks": [
       {
+        "name": "Huntress' Intuition",
+        "description": "Gain +10 Tracking.",
+        "minister": false
+      },
+      {
         "name": "Sharing is Caring",
         "description": "Unlocks 2 more Exp Share slots in your pets menu and increases the Exp Share rate by +10%!",
         "minister": true
       }
     ],
-    "lastSeenYear": 523,
-    "updatedAt": "2026-11-04T23:15:02.203Z",
+    "lastSeenYear": 525,
+    "updatedAt": "2026-11-11T18:26:55.837Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-30T01:54:44.548Z",
     "lastMayorEndedAt": "2026-10-05T04:14:59.578Z"
@@ -120,13 +125,18 @@
         "minister": false
       },
       {
+        "name": "Luck of the Sea 2.0",
+        "description": "Gain 15 Sea Creature Chance.",
+        "minister": false
+      },
+      {
         "name": "Double Trouble",
         "description": "For every 1 Sea Creature Chance, gain +0.1 Double Hook Chance.",
         "minister": true
       }
     ],
-    "lastSeenYear": 524,
-    "updatedAt": "2026-11-10T02:51:02.949Z",
+    "lastSeenYear": 525,
+    "updatedAt": "2026-11-11T18:26:55.837Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-05T04:14:59.578Z",
     "lastMayorEndedAt": "2026-10-10T10:46:11.358Z"
@@ -134,18 +144,13 @@
   "Paul": {
     "perks": [
       {
-        "name": "Marauder",
-        "description": "Dungeon reward chests are 20% cheaper.",
-        "minister": false
-      },
-      {
         "name": "EZPZ",
         "description": "Gain 10 bonus score on dungeon runs.",
         "minister": true
       }
     ],
-    "lastSeenYear": 523,
-    "updatedAt": "2026-11-04T23:15:02.203Z",
+    "lastSeenYear": 525,
+    "updatedAt": "2026-11-11T18:26:55.837Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-11-05T03:32:28.435Z",
     "lastMayorEndedAt": "2026-11-10T10:47:27.915Z"
