@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "currentMayor": "Foxy",
-    "lastCheckedAt": "2026-11-15T07:52:02.021Z"
+    "currentMayor": "Marina",
+    "lastCheckedAt": "2026-11-15T15:22:43.337Z"
   },
   "Aatrox": {
     "perks": [
@@ -113,9 +113,9 @@
     ],
     "lastSeenYear": 524,
     "updatedAt": "2026-11-10T02:51:02.949Z",
-    "isCurrentMayor": true,
+    "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-11-10T10:47:27.915Z",
-    "lastMayorEndedAt": null
+    "lastMayorEndedAt": "2026-11-15T15:22:43.337Z"
   },
   "Marina": {
     "perks": [
@@ -137,9 +137,9 @@
     ],
     "lastSeenYear": 525,
     "updatedAt": "2026-11-15T07:52:02.021Z",
-    "isCurrentMayor": false,
-    "lastBecameMayorAt": "2026-10-05T04:14:59.578Z",
-    "lastMayorEndedAt": "2026-10-10T10:46:11.358Z"
+    "isCurrentMayor": true,
+    "lastBecameMayorAt": "2026-11-15T15:22:43.337Z",
+    "lastMayorEndedAt": null
   },
   "Paul": {
     "perks": [
