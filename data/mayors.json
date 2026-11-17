@@ -1,18 +1,23 @@
 {
   "_meta": {
     "currentMayor": "Marina",
-    "lastCheckedAt": "2026-11-16T17:00:08.694Z"
+    "lastCheckedAt": "2026-11-17T00:44:12.625Z"
   },
   "Aatrox": {
     "perks": [
+      {
+        "name": "SLASHED Pricing",
+        "description": "Starting slayer quests is half price.",
+        "minister": false
+      },
       {
         "name": "Pathfinder",
         "description": "Gain rare drops 20% more often.",
         "minister": true
       }
     ],
-    "lastSeenYear": 525,
-    "updatedAt": "2026-11-15T07:52:02.021Z",
+    "lastSeenYear": 526,
+    "updatedAt": "2026-11-17T00:44:12.625Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-31T02:38:01.162Z",
     "lastMayorEndedAt": "2026-11-05T03:32:28.435Z"
@@ -36,16 +41,16 @@
       {
         "name": "Huntress' Intuition",
         "description": "Gain +10 Tracking.",
-        "minister": false
+        "minister": true
       },
       {
         "name": "Sharing is Caring",
         "description": "Unlocks 2 more Exp Share slots in your pets menu and increases the Exp Share rate by +10%!",
-        "minister": true
+        "minister": false
       }
     ],
-    "lastSeenYear": 525,
-    "updatedAt": "2026-11-15T07:52:02.021Z",
+    "lastSeenYear": 526,
+    "updatedAt": "2026-11-17T00:44:12.625Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-30T01:54:44.548Z",
     "lastMayorEndedAt": "2026-10-05T04:14:59.578Z"
@@ -56,10 +61,15 @@
         "name": "Stock Exchange",
         "description": "Participate in the Stonks Auction for a chance to win Stock of Stonks! Trade them for extravagant items at the Trade Center.",
         "minister": true
+      },
+      {
+        "name": "Long Term Investment",
+        "description": "The elected minister will appear as a candidate with all of their perks in the next election cycle.",
+        "minister": false
       }
     ],
-    "lastSeenYear": 524,
-    "updatedAt": "2026-11-10T02:51:02.949Z",
+    "lastSeenYear": 526,
+    "updatedAt": "2026-11-17T00:44:12.625Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-15T15:13:23.065Z",
     "lastMayorEndedAt": "2026-10-20T17:58:31.500Z"
@@ -91,28 +101,13 @@
   "Foxy": {
     "perks": [
       {
-        "name": "Sweet Benevolence",
-        "description": "Earn +30% more Candy, Gifts and Chocolate from duplicate rabbits during their respective events.",
-        "minister": false
-      },
-      {
         "name": "A Time for Giving",
         "description": "Spawn Party Chests by killing mobs during the Spooky Festival and collect Party Gifts from Jerry's Workshop.",
-        "minister": false
-      },
-      {
-        "name": "Chivalrous Carnival",
-        "description": "Schedules a Carnival in the hub, active throughout the entire year.",
-        "minister": false
-      },
-      {
-        "name": "Extra Event",
-        "description": "Schedules an extra Fishing Festival event during the year.",
         "minister": true
       }
     ],
-    "lastSeenYear": 524,
-    "updatedAt": "2026-11-10T02:51:02.949Z",
+    "lastSeenYear": 526,
+    "updatedAt": "2026-11-17T00:44:12.625Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-11-10T10:47:27.915Z",
     "lastMayorEndedAt": "2026-11-15T15:22:43.337Z"
@@ -149,8 +144,8 @@
         "minister": true
       }
     ],
-    "lastSeenYear": 525,
-    "updatedAt": "2026-11-15T07:52:02.021Z",
+    "lastSeenYear": 526,
+    "updatedAt": "2026-11-17T00:44:12.625Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-11-05T03:32:28.435Z",
     "lastMayorEndedAt": "2026-11-10T10:47:27.915Z"
