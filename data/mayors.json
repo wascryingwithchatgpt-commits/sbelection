@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "currentMayor": "Aatrox",
-    "lastCheckedAt": "2026-11-25T12:10:19.611Z"
+    "currentMayor": "Diaz",
+    "lastCheckedAt": "2026-11-25T21:41:43.336Z"
   },
   "Aatrox": {
     "perks": [
@@ -18,9 +18,9 @@
     ],
     "lastSeenYear": 526,
     "updatedAt": "2026-11-20T10:56:38.055Z",
-    "isCurrentMayor": true,
+    "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-11-20T18:59:35.756Z",
-    "lastMayorEndedAt": null
+    "lastMayorEndedAt": "2026-11-25T21:41:43.336Z"
   },
   "Cole": {
     "perks": [
@@ -85,9 +85,9 @@
     ],
     "lastSeenYear": 527,
     "updatedAt": "2026-11-25T12:10:19.611Z",
-    "isCurrentMayor": false,
-    "lastBecameMayorAt": "2026-10-15T15:13:23.065Z",
-    "lastMayorEndedAt": "2026-10-20T17:58:31.500Z"
+    "isCurrentMayor": true,
+    "lastBecameMayorAt": "2026-11-25T21:41:43.336Z",
+    "lastMayorEndedAt": null
   },
   "Finnegan": {
     "perks": [
