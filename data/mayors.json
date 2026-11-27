@@ -1,7 +1,7 @@
 {
   "_meta": {
     "currentMayor": "Diaz",
-    "lastCheckedAt": "2026-11-26T22:36:58.793Z"
+    "lastCheckedAt": "2026-11-27T04:33:24.082Z"
   },
   "Aatrox": {
     "perks": [
@@ -27,11 +27,16 @@
       {
         "name": "Mining Fiesta",
         "description": "Gain +25☯ Mining Wisdom, +25%  Mining Fortune, and collect Refined Minerals and Glossy Gemstones from mining!",
+        "minister": false
+      },
+      {
+        "name": "Molten Forge",
+        "description": "Decrease the time it takes to forge items by 25%.",
         "minister": true
       }
     ],
-    "lastSeenYear": 525,
-    "updatedAt": "2026-11-15T07:52:02.021Z",
+    "lastSeenYear": 528,
+    "updatedAt": "2026-11-27T04:33:24.082Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-10-25T20:25:08.507Z",
     "lastMayorEndedAt": "2026-10-31T02:38:01.162Z"
@@ -41,7 +46,12 @@
       {
         "name": "Huntress' Intuition",
         "description": "Gain +10 Tracking.",
-        "minister": true
+        "minister": false
+      },
+      {
+        "name": "Mythological Ritual",
+        "description": "Minister Diana will sell the Griffin Pet, which lets you find Mythological Creatures and tons of unique items.",
+        "minister": false
       },
       {
         "name": "Pet XP Buff",
@@ -51,11 +61,11 @@
       {
         "name": "Sharing is Caring",
         "description": "Unlocks 2 more Exp Share slots in your pets menu and increases the Exp Share rate by +10%!",
-        "minister": false
+        "minister": true
       }
     ],
-    "lastSeenYear": 527,
-    "updatedAt": "2026-11-25T12:10:19.611Z",
+    "lastSeenYear": 528,
+    "updatedAt": "2026-11-27T04:33:24.082Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-30T01:54:44.548Z",
     "lastMayorEndedAt": "2026-10-05T04:14:59.578Z"
@@ -105,10 +115,15 @@
         "name": "Blooming Business",
         "description": "All Garden Visitors reward Fine Flour and +10% Copper for accepting offers. Invites 5 unique visitors to your Garden and makes higher rarity visitors 20% more likely to show up.",
         "minister": false
+      },
+      {
+        "name": "Grand Feast",
+        "description": "Finnegan upgrades the Harvest Feast into the Grand Feast, making it last a full SkyBlock year. Also opens the Grand Bakery, where Kernels can be spent on more exclusive items.",
+        "minister": false
       }
     ],
-    "lastSeenYear": 527,
-    "updatedAt": "2026-11-25T12:10:19.611Z",
+    "lastSeenYear": 528,
+    "updatedAt": "2026-11-27T04:33:24.082Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-09-15T20:01:21.184Z",
     "lastMayorEndedAt": "2026-09-19T16:40:02.904Z"
@@ -135,8 +150,8 @@
         "minister": true
       }
     ],
-    "lastSeenYear": 527,
-    "updatedAt": "2026-11-25T12:10:19.611Z",
+    "lastSeenYear": 528,
+    "updatedAt": "2026-11-27T04:33:24.082Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": "2026-11-15T15:22:43.337Z",
     "lastMayorEndedAt": "2026-11-20T18:59:35.756Z"
@@ -193,9 +208,20 @@
     "lastMayorEndedAt": "2026-10-25T20:25:08.507Z"
   },
   "Scorpius": {
-    "perks": [],
-    "lastSeenYear": null,
-    "updatedAt": null,
+    "perks": [
+      {
+        "name": "Bribe",
+        "description": "If Scorpius wins and you voted for him, Mayor Scorpius will offer you coins as a token of gratitude.",
+        "minister": false
+      },
+      {
+        "name": "Darker Auctions",
+        "description": "Scorpius will intrude in Dark Auctions, increasing the amount of rounds to 7 and offering special items.",
+        "minister": false
+      }
+    ],
+    "lastSeenYear": 528,
+    "updatedAt": "2026-11-27T04:33:24.082Z",
     "isCurrentMayor": false,
     "lastBecameMayorAt": null,
     "lastMayorEndedAt": null
